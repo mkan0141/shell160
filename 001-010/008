@@ -1,0 +1,1 @@
+cat access.log | sed -E 's/.* \[(.*) \+0900]/\1/g' | awk -F: '{print($2<12?"午前":"午後")}' | sort | uniq -c

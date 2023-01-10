@@ -1,0 +1,1 @@
+cat headings.md | sed -E 's/^## (.*)/\1\n---/g;s/^# (.*)/\1\n===/g'

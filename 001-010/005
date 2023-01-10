@@ -1,0 +1,1 @@
+cat shellgei160/qdata/5/ntp.conf | rg "^pool" | awk "{print $2}"

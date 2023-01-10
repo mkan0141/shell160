@@ -1,0 +1,1 @@
+rg -l "^10$" | xargs rm
