@@ -1,0 +1,1 @@
+read -d '' cardno < cardno; echo "xxxx-xxxx-${cardno:10:10}"

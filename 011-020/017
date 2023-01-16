@@ -1,0 +1,1 @@
+read -d '' file < /etc/passwd; echo $file > ~/a

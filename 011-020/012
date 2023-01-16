@@ -1,0 +1,7 @@
+if [ "$1" = "" ]; then
+  read _BASE
+else
+  _BASE=$1
+fi
+
+echo $((_BASE * 2))
